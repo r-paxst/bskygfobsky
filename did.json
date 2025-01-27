@@ -1,0 +1,11 @@
+{
+    "@context": "https://w3id.org/did/v1",
+    "id": "did:plc:5x7g63oe642b5apm7nbi6e26",
+    "service": [
+      {
+        "id": "#feed",
+        "type": "FeedGenerator",
+        "serviceEndpoint": "https://r-paxst-bskygfobsky-74-2k65nkdwsj1c.deno.dev/xrpc/app.bsky.feed.describeFeedGenerator"
+      }
+    ]
+  }
